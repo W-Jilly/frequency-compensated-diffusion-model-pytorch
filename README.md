@@ -71,7 +71,7 @@ We prepared the pretrained model at:
 | ----------------------------------------------------------- | ------------------------------------------------------------ |
 | Generator                                                 | [GoogleDriver](https://drive.google.com/file/d/1KYQNJFjvrfAhTLi_V1Z5NZWcyK4CuLSM/view?usp=share_link) |
 
-### Evaluation
+## Evaluation
 
 Download a pretrained model and edit config/framework_da.json about "resume_state" and "dataroot":
 
