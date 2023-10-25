@@ -67,9 +67,9 @@ then make sure the correct data paths ("dataroot") in config/framework_da.json.
 
 We prepared the pretrained model at:
 
-| Type                                                        | Platform                                        |
+| Type                                                        | Weights                                        |
 | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| Generator                                                 | [GoogleDriver](https://drive.google.com/file/d/1KYQNJFjvrfAhTLi_V1Z5NZWcyK4CuLSM/view?usp=share_link) |
+| Generator                                                 | [OneDrive](https://1drv.ms/u/s!AsqtTP8eWS-penA8AqrU8c_I4jU) |
 
 ## Evaluation
 
@@ -108,7 +108,7 @@ Quantitative comparison on real-world hazy data (RTTS). Bold and underline indic
 ## Todo
 
 
-- [ ] Upload configs and pretrained models
+- [x] Upload configs and pretrained models
 
 - [x] Upload evaluation scripts
 
