@@ -72,7 +72,9 @@ We prepared the pretrained model at:
 | Generator                                                 | [OneDrive](https://1drv.ms/u/s!AsqtTP8eWS-penA8AqrU8c_I4jU) |
 
 ## Evaluation
+
 Download the test set (e.g O-Haze). Simply put the test images in "dataroot" and set the correct path in config/framework_da.json about "dataroot";
+
 Download the pretrained model and set the correct path in config/framework_da.json about "resume_state":
 
 ```json
