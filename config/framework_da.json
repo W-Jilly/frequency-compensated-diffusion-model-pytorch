@@ -17,7 +17,7 @@
       "tb_logger": "tb_logger",
       "results": "results",
       "checkpoint": "checkpoint",
-      "resume_state": "./framework_da_230221_121802"
+      "resume_state": "./ddpm_fcb_230221_121802"
     //   "resume_state": null
     },
     "datasets": {
