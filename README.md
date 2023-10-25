@@ -72,8 +72,8 @@ We prepared the pretrained model at:
 | Generator                                                 | [OneDrive](https://1drv.ms/u/s!AsqtTP8eWS-penA8AqrU8c_I4jU) |
 
 ## Evaluation
-
-Download a pretrained model and edit config/framework_da.json about "resume_state" and "dataroot":
+Download the test set (e.g O-Haze). Simply put the test images in "dataroot" and set the correct path in config/framework_da.json about "dataroot";
+Download the pretrained model and set the correct path in config/framework_da.json about "resume_state":
 
 ```json
     "path": {
@@ -81,7 +81,7 @@ Download a pretrained model and edit config/framework_da.json about "resume_stat
       "tb_logger": "tb_logger",
       "results": "results",
       "checkpoint": "checkpoint",
-      "resume_state": "./framework_da_230221_121802"
+      "resume_state": "./ddpm_fcb_230221_121802"
     }
     "val": {
       "name": "dehaze_val",
@@ -97,7 +97,7 @@ Download a pretrained model and edit config/framework_da.json about "resume_stat
 python infer.py -c [config file]
 ```
 
-The default config file is at config/framework_da.json. The outputs images are located at /data/diffusion/results. One can change output path in core/logger.py.
+The default config file is config/framework_da.json. The outputs images are located at /data/diffusion/results. One can change output path in core/logger.py.
 
 ## Results
 Quantitative comparison on real-world hazy data (RTTS). Bold and underline indicate the best and the second-best, respectively.
