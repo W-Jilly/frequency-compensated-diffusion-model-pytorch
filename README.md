@@ -101,6 +101,17 @@ python infer.py -c [config file]
 
 The default config file is config/framework_da.json. The outputs images are located at /data/diffusion/results. One can change output path in core/logger.py.
 
+### Train
+
+Prepare train dataset and set the correct paths in config/framework_da.json about "datasets";
+
+If training from scratch, make sure "resume_state" is null in config/framework_da.json.
+
+```python
+# infer
+python train.py -c [config file]
+```
+
 ## Results
 Quantitative comparison on real-world hazy data (RTTS). Bold and underline indicate the best and the second-best, respectively.
 <p align="center">
@@ -114,4 +125,4 @@ Quantitative comparison on real-world hazy data (RTTS). Bold and underline indic
 
 - [x] Upload evaluation scripts
 
-- [ ] Upload train scripts
+- [x] Upload train scripts
