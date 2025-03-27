@@ -17,7 +17,10 @@ Power spectrum analysis on $\epsilon$-prediction results of DDPMs at varying $t$
 (b) The PSD analysis of DDPM and DDPM+FCB.
 (c) The KL distance between the spectrum of the predicted $\epsilon$ in (b) and that of the groundtruth. The smaller distance, the closer to groundtruth.
  -->
- 
+
+## News
+- 2025.03 We release a more powerful dehazing diffusion model [ProHaze](https://github.com/TianwenZhou/ProDehaze) based on SD-2.1.
+
 ## Getting started
 ### Installation
 * This repo is a modification on the [**SR3 Repo**](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement ).
